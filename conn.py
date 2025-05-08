@@ -7,8 +7,8 @@ app = Flask(__name__)
 app.secret_key = "supersecret"  # Required for flashing messages
 
 # MongoDB Atlas connection
-client = MongoClient("mongodb+srv://202311050:Mangodb99.@cluster50.fqokfj9.mongodb.net/?retryWrites=true&w=majority&appName=Cluster50&tls=true")
-db = client["project"]
+client = MongoClient(".................") #use your own atlas connection here
+db = client["......"] #your project name
 users_col = db["users"]
 events_col = db["events"]
 
